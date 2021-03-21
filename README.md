@@ -1,4 +1,4 @@
-## I'am learning Next.js
+## I am learning Next.js
 
 **Technologies**
 - React
