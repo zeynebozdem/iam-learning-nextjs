@@ -1,14 +1,14 @@
 import Link from 'next/link'
-
+import styles from './navigation.module.css'
 function Navigation() {
   return (
     <div>
       <nav>
         <Link href="/">
-          <a>Ana Sayfa</a>
+          <a className={styles.link}>Ana Sayfa</a>
         </Link>
         <Link href="/about">
-          <a>Hakkımda</a>
+          <a className={styles.link}>Hakkımda</a>
         </Link>
       </nav>
     </div>

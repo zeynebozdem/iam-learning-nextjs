@@ -8,6 +8,11 @@ function HomePage() {
         <title>Anasayfa</title>
       </Head>
       <h1>Welcome to Next.js!</h1>
+      <style global jsx>{`
+        body{
+          background: #efefef;
+        }
+      `}</style>
     </Layout>
   )
 }
